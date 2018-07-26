@@ -15,6 +15,8 @@
 		6412B52B21097DB800B5F1B9 /* RTFSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6412B52A21097DB800B5F1B9 /* RTFSampleTests.swift */; };
 		6412B53621097DB800B5F1B9 /* RTFSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6412B53521097DB800B5F1B9 /* RTFSampleUITests.swift */; };
 		6412B54421097E0600B5F1B9 /* sample.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6412B54321097E0600B5F1B9 /* sample.rtf */; };
+		6412B5462109824E00B5F1B9 /* 選擇RTF檔.png in Resources */ = {isa = PBXBuildFile; fileRef = 6412B5452109824D00B5F1B9 /* 選擇RTF檔.png */; };
+		6412B5482109825500B5F1B9 /* 成果.png in Resources */ = {isa = PBXBuildFile; fileRef = 6412B5472109825500B5F1B9 /* 成果.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6412B53521097DB800B5F1B9 /* RTFSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTFSampleUITests.swift; sourceTree = "<group>"; };
 		6412B53721097DB800B5F1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6412B54321097E0600B5F1B9 /* sample.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = sample.rtf; sourceTree = "<group>"; };
+		6412B5452109824D00B5F1B9 /* 選擇RTF檔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "選擇RTF檔.png"; sourceTree = "<group>"; };
+		6412B5472109825500B5F1B9 /* 成果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "成果.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		6412B50921097DB600B5F1B9 = {
 			isa = PBXGroup;
 			children = (
+				6412B5452109824D00B5F1B9 /* 選擇RTF檔.png */,
+				6412B5472109825500B5F1B9 /* 成果.png */,
 				6412B51421097DB600B5F1B9 /* RTFSample */,
 				6412B52921097DB800B5F1B9 /* RTFSampleTests */,
 				6412B53421097DB800B5F1B9 /* RTFSampleUITests */,
@@ -233,9 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6412B52021097DB800B5F1B9 /* LaunchScreen.storyboard in Resources */,
+				6412B5482109825500B5F1B9 /* 成果.png in Resources */,
 				6412B51D21097DB800B5F1B9 /* Assets.xcassets in Resources */,
 				6412B54421097E0600B5F1B9 /* sample.rtf in Resources */,
 				6412B51B21097DB600B5F1B9 /* Main.storyboard in Resources */,
+				6412B5462109824E00B5F1B9 /* 選擇RTF檔.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
